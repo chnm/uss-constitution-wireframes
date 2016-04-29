@@ -154,7 +154,9 @@
     <script src="lightbox2-master/dist/js/lightbox.js"></script>
     <script src="js/intro.js"></script>
     <script>
+    if (screen.width >= 600) {
       introJs().setOption("showStepNumbers",false).start();
+    }
     </script>
   </body>
 </html>
