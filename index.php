@@ -92,7 +92,7 @@
   </div>
 
 </div>
-
+</div>
 <div class="row">
   <div class="hide-for-medium">
     <h3>Explore the site!</h3>
