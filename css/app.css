@@ -4285,6 +4285,9 @@ table.hover tr:nth-of-type(even):hover {
 .bottom {
   margin-bottom: 1rem; }
 
+.small-12 button {
+  width: 100%; }
+
 .image-wrapper {
   width: 100%;
   height: 100%;

@@ -92,6 +92,15 @@
   </div>
 
 </div>
+
+<div class="row">
+  <div class="hide-for-medium">
+    <h3>Explore the site!</h3>
+    <div class="small-12"><button class="button">Collections</button></div>
+    <div class="small-12"><button class="button" class="button" class="button">Ship's Company</button></div>
+    <div class="small-12"><button class="button" class="button">Active Logs</button></div>
+    <div class="small-12"><button class="button">Resources</button></div>
+  </div>
 </div>
 
 <div class="row bottom" data-intro="Finally, we will highlight some specific items here, for users who might be more interested in directly engaging the content." data-position="top">
