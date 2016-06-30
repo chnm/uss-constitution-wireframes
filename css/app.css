@@ -4246,6 +4246,131 @@ table.hover tr:nth-of-type(even):hover {
     li.search button {
       display: none; } }
 
+html, body {
+  height: auto; }
+
+body {
+  font-family: "Lato", sans-serif;
+  border-left: 20px solid #141823;
+  border-right: 20px solid #141823; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Volkhov', serif; }
+
+h2 a, h3 {
+  color: #962d22; }
+
+h2 a:hover {
+  color: #962d22; }
+
+#color-1 {
+  background-color: #141823; }
+
+#color-2 {
+  background-color: #3a7092; }
+
+#color-3 {
+  background-color: #3aa5e9; }
+
+#color-4 {
+  background-color: #EDF1F2; }
+
+#color-5 {
+  background-color: #962d22; }
+
+#color-6 {
+  background-color: #fbdc9f; }
+
+#color-7 {
+  background-color: #dfd8d0; }
+
+#color-8 {
+  background-color: #8c9597; }
+
+.pullquote {
+  margin-left: 1rem;
+  border-left: 20px solid #3a7092;
+  background-color: #EDF1F2;
+  font-size: 2rem;
+  color: #3aa5e9;
+  padding: 2rem;
+  float: right; }
+
+.inspiration img {
+  background-color: #EDF1F2;
+  padding: 5%;
+  margin-bottom: 1rem; }
+
+.title {
+  border-bottom: 0.75rem solid #962d22;
+  margin-bottom: 1rem; }
+
+.colors {
+  border-bottom: 0.25rem solid #3aa5e9;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem; }
+
+.menu a {
+  font-family: 'Volkhov', serif;
+  font-size: 1.33rem;
+  color: #962d22;
+  padding: 3px 5px; }
+
+.menu a:hover {
+  box-shadow: inset 0 -3px #fbdc9f; }
+
+.links button {
+  margin-left: 3rem; }
+
+.nav-link:hover {
+  color: #f9ca6e; }
+
+.body-link {
+  color: #3a7092; }
+
+.body-link:hover {
+  color: #3aa5e9; }
+
+.button {
+  background-color: #962d22;
+  color: #fbdc9f; }
+
+.button:hover {
+  background-color: #81271d;
+  color: #fbdc9f; }
+
+.top-bar, .top-bar ul {
+  background: #fefefe; }
+
+.top-bar {
+  padding-bottom: 1rem;
+  border-bottom: 5px solid #962d22;
+  margin-bottom: 1rem; }
+
+.top-bar-left {
+  max-width: 50%; }
+
+.top-bar-left h2 {
+  font-size: 2rem; }
+
+.top-bar-left img {
+  float: left; }
+
+.search {
+  clear: both;
+  padding-top: 5px; }
+  .search input, .search button {
+    float: right; }
+  .search input {
+    margin: 0; }
+  .search button {
+    margin-right: 1rem;
+    padding: 0.8em 1em;
+    background-color: #962d22;
+    color: #fbdc9f; }
+  .search button:hover {
+    background-color: #81271d; }
+
 #search {
   float: right; }
 
@@ -4271,9 +4396,11 @@ table.hover tr:nth-of-type(even):hover {
   border-bottom: 1px solid #D2D2D2; }
 
 .item img {
-  margin-right: 1rem; }
+  margin-right: 1rem;
+  width: 200px; }
 
 .related-items img {
+  width: 125px;
   padding: 0 5px 10px 0; }
 
 .categories a {
@@ -4288,10 +4415,12 @@ table.hover tr:nth-of-type(even):hover {
 .small-12 button {
   width: 100%; }
 
+.portal {
+  max-height: 425px; }
+
 .image-wrapper {
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.04);
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -4317,7 +4446,7 @@ table.hover tr:nth-of-type(even):hover {
   font-size: 18px;
   opacity: 0;
   transition: all 0.2s linear;
-  padding: 40px 2px 0;
+  padding: 0 2px;
   bottom: 0;
   width: 100%;
   text-align: center; }
@@ -4326,6 +4455,7 @@ table.hover tr:nth-of-type(even):hover {
   transition: all 0.2s linear; }
 
 .overlay-fade-in .image-overlay-content {
+  padding-top: 10%;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease-in-out; }
@@ -4342,8 +4472,8 @@ table.hover tr:nth-of-type(even):hover {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  background: #FFF;
-  color: #2199e8;
+  background-color: #962d22;
+  color: #fbdc9f;
   text-transform: uppercase;
   position: relative;
   border: none;
@@ -4351,7 +4481,8 @@ table.hover tr:nth-of-type(even):hover {
   transition: all 0.2s ease-in-out; }
 
 .overlay-fade-in a.button:hover {
-  color: #1585cf; }
+  background-color: #81271d;
+  color: #f9ca6e W; }
 
 .overlay-fade-in:hover img {
   -webkit-transform: scale(1.2);
@@ -4483,3 +4614,23 @@ table.hover tr:nth-of-type(even):hover {
 
 .overlay-fade-in-new-background:hover .button {
   transition-delay: 0.2s; }
+
+#header {
+  background-color: #e6e6e6;
+  overflow: hidden; }
+
+.italic {
+  font-style: italic; }
+
+.color div:after {
+  content: "";
+  display: block;
+  padding-bottom: 90%; }
+
+.top {
+  margin-top: 10px; }
+
+.content::after {
+  content: " ";
+  display: table;
+  clear: both; }

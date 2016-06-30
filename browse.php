@@ -22,49 +22,49 @@
 
 
     <div class="large-12 columns item" data-intro="Individual items. These will link to the item page via the title and the thumbnail. We can include a snippet of the description, as well as other information, such as links to similar items (noted here as Tag).">
-        <a href="item.php"><img src="http://placehold.it/200x200?text=Thumb" alt="" class="left"></a>
+        <a href="item.php"><img src="img/Letter2Square.jpg" alt="" class="left"></a>
         <a href="item.php"><h3>Title for the Item</h3></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>
     </div>
 
     <div class="large-12 columns item">
-        <img src="http://placehold.it/200x200?text=Thumb" alt="" class="left">
+        <img src="img/Letter2Square.jpg" alt="" class="left">
         <h3>Title for the Item</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>
     </div>
 
     <div class="large-12 columns item">
-        <img src="http://placehold.it/200x200?text=Thumb" alt="" class="left">
+        <img src="img/Letter2Square.jpg" alt="" class="left">
         <h3>Title for the Item</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>
     </div>
 
     <div class="large-12 columns item">
-        <img src="http://placehold.it/200x200?text=Thumb" alt="" class="left">
+        <img src="img/Letter2Square.jpg" alt="" class="left">
         <h3>Title for the Item</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>
     </div>
 
     <div class="large-12 columns item">
-        <img src="http://placehold.it/200x200?text=Thumb" alt="" class="left">
+        <img src="img/Letter2Square.jpg" alt="" class="left">
         <h3>Title for the Item</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>
     </div>
 
     <div class="large-12 columns item">
-        <img src="http://placehold.it/200x200?text=Thumb" alt="" class="left">
+        <img src="img/Letter2Square.jpg" alt="" class="left">
         <h3>Title for the Item</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>
     </div>
 
     <div class="large-12 columns item">
-        <img src="http://placehold.it/200x200?text=Thumb" alt="" class="left">
+        <img src="img/Letter2Square.jpg" alt="" class="left">
         <h3>Title for the Item</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur id velit ut! Tempora, possimus quisquam voluptas incidunt iure omnis! Consectetur, ducimus. Ea voluptas saepe, ullam dolorum, a placeat velit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quam quasi, enim magnam, ratione provident officia facere explicabo, hic et tenetur natus dolore aut voluptatibus? Quo veniam blanditiis deserunt asperiores?</p>
         <p>Tags: <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a>, <a href="#">Tag</a></p>

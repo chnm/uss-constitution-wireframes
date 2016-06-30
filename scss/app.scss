@@ -61,6 +61,186 @@
         }
     }
 }
+
+html, body {
+  height:auto;
+}
+//Consistent Styles
+
+//Neutral
+$oslo-gray:#8c9597;
+$mine-shaft:#262626;
+
+// Reds
+$prarie-sand:#962d22;
+
+// Blues
+$porcelain:#EDF1F2;
+$picton-blue:#3aa5e9;
+$calypso:#3a7092;
+$mirage:#141823;
+
+//Yellow
+$cherokee:#fbdc9f;
+$westar:#dfd8d0;
+
+body {
+    font-family: "Lato", sans-serif;
+    border-left:20px solid $mirage;
+    border-right:20px solid $mirage;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Volkhov', serif;
+}
+
+h2 a, h3 {
+    color:$prarie-sand;
+}
+
+h2 a:hover {
+    color:$prarie-sand;
+}
+
+
+#color-1 {
+    background-color:$mirage;
+}
+
+#color-2 {
+    background-color:$calypso;
+}
+
+#color-3 {
+    background-color:$picton-blue;
+}
+
+#color-4 {
+    background-color:$porcelain;
+}
+
+#color-5 {
+    background-color:$prarie-sand;
+}
+
+#color-6 {
+    background-color:$cherokee;
+}
+
+#color-7 {
+    background-color:$westar;
+}
+
+#color-8 {
+    background-color:$oslo-gray;
+}
+
+.pullquote {
+    margin-left:1rem;
+    border-left:20px solid $calypso;
+    background-color: $porcelain;
+    font-size:2rem;
+    color:$picton-blue;
+    padding: 2rem;
+    float:right;
+}
+
+.inspiration img {
+    background-color:$porcelain;
+    padding:5%;
+    margin-bottom: 1rem;
+}
+
+.title {
+    border-bottom:.75rem solid $prarie-sand;
+    margin-bottom: 1rem;
+}
+
+.colors {
+    border-bottom:.25rem solid $picton-blue;
+    margin-bottom: 1rem;
+    padding-bottom:1rem;
+}
+
+.menu a {
+    font-family: 'Volkhov', serif;
+    font-size:1.33rem;
+    color:$prarie-sand;
+    padding:3px 5px;
+}
+.menu a:hover {
+  box-shadow: inset 0 -3px $cherokee;
+}
+.links button {
+    margin-left: 3rem;
+}
+
+.nav-link:hover {
+    color:darken($cherokee,10%)
+}
+
+.body-link {
+    color:$calypso;
+}
+
+.body-link:hover {
+    color:$picton-blue;
+}
+
+.button {
+    background-color:$prarie-sand;
+    color:$cherokee;
+}
+
+.button:hover {
+    background-color:darken($prarie-sand,5%);
+    color:$cherokee;
+}
+
+.top-bar, .top-bar ul {
+  background: #fefefe;
+}
+
+.top-bar {
+  padding-bottom:1rem;
+  border-bottom:5px solid $prarie-sand;
+  margin-bottom: 1rem;
+}
+
+.top-bar-left {
+  max-width: 50%;
+}
+
+.top-bar-left {
+  h2 {
+  font-size:2rem;
+}
+  img {
+    float:left;
+  }
+}
+
+.search {
+  clear:both;
+  padding-top:5px;
+
+  input, button {
+    float:right;
+  }
+
+  input {
+    margin:0;
+  }
+  button {
+    margin-right:1rem;
+    padding:0.8em 1em;
+    background-color:$prarie-sand;
+    color:$cherokee;
+  }
+  button:hover {
+    background-color:darken($prarie-sand,5%);
+  }
+}
 #search {
     float:right;
 }
@@ -94,9 +274,11 @@
 
 .item img {
     margin-right:1rem;
+    width:200px;
 }
 
 .related-items img {
+    width:125px;
     padding:0 5px 10px 0;
 }
 
@@ -116,10 +298,14 @@
   width: 100%;
 }
 
+.portal {
+  max-height: 425px;
+}
+
 .image-wrapper {
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  // border: 1px solid rgba(0, 0, 0, 0.04);
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -147,13 +333,14 @@
   font-size: 18px;
   opacity: 0;
   transition: all 0.2s linear;
-  padding: 40px 2px 0;
+  padding: 0 2px;
   bottom: 0;
   width: 100%;
   text-align: center; }
 .overlay-fade-in img {
   transition: all 0.2s linear; }
 .overlay-fade-in .image-overlay-content {
+  padding-top:10%;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease-in-out; }
@@ -168,15 +355,16 @@
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  background: #FFF;
-  color: #2199e8;
+  background-color:$prarie-sand;
+  color:$cherokee;
   text-transform: uppercase;
   position: relative;
   border: none;
   opacity: 0;
   transition: all 0.2s ease-in-out; }
   .overlay-fade-in a.button:hover {
-    color: #1585cf; }
+    background-color:darken($prarie-sand,5%);
+    color:darken($cherokee,10%)W }
 .overlay-fade-in:hover img {
   transform: scale(1.2); }
 .overlay-fade-in:hover .image-overlay-content {
@@ -278,3 +466,27 @@
   transition-delay: 0.1s; }
 .overlay-fade-in-new-background:hover .button {
   transition-delay: 0.2s; }
+
+  #header {
+    background-color:#e6e6e6;
+    overflow: hidden;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.color div:after {
+  content: "";
+  display: block;
+  padding-bottom: 90%;
+}
+
+.top { margin-top:10px}
+
+.content::after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+

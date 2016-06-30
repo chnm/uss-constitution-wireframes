@@ -9,7 +9,7 @@
     <script src="lightbox2-master/dist/js/lightbox.js"></script>
     <script src="js/intro.js"></script>
     <script>
-      introJs().setOption("showStepNumbers",false).start();
+      //introJs().setOption("showStepNumbers",false).start();
     </script>
   </body>
 </html>
