@@ -1,3 +1,6 @@
+# Archived
+RRCHNM archived this repository in February 2022. Last actual code activity was June 2016. If you need more information or to unarchive this repository, please contact us at webmaster@chnm.gmu.edu
+
 # Foundation for Sites Template
 
 **Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
